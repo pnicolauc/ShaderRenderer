@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>My first Three.js app</title>
+<script src="Three.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="STYLE.css">
+<link
+<style></style>
+</head>
+<body>
+
+<div class="box">
+  <textarea id="fragmentshader">
+#ifdef GL_ES
+precision highp float;
+#endif
+
+void main()
+{
+  gl_FragColor 	= vec4(1.0,0.0,1.0,1.0);
+}
+  </textarea>
+</div>
+<div class="box" id="renderer">
+<script src="script.js"></script>
+</div>
+<div class= box>
+  <button onclick="run()">Run</button>
+</div>
+</body>
+</html>
